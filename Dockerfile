@@ -5,7 +5,7 @@ WORKDIR /app
 RUN apt-get update && apt-get -y dist-upgrade
 RUN apt-get install -y gnupg git
 
-RUN git clone https://github.com/grinco/matterport-dl /app
+RUN git clone https://github.com/dtrolley/matterport-dl /app
 
 RUN pip3 install requests tqdm
 
