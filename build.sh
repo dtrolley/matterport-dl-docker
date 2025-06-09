@@ -1,1 +1,1 @@
-docker build -t grinco/matterport-dl .
+docker build -t dtrolley/matterport-dl .
